@@ -3,15 +3,15 @@
 
 ```
 $ python3 newPass.py
-Phrase to base password off of: shake your body down to the ground
-5Y8DtT9
+Phrase to base password off of: the wheels on the bus go round and round
+tW0T89r4r
 ```
 
 * or use it like this
 
 ```
-from newPass import NewPass
+from newPass import hackronym
 
-n = NewPass('yesterday all my troubles seemed so far away')
-print(n.hackronym()) # y4mT55f4
+
+print(hackronym('old macdonald had a farm ee i ee i o')) # 0Mh4f3!3!0
 ```
